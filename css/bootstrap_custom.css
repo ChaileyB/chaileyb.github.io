@@ -114,6 +114,9 @@ a:hover {
 }
 
 .navbar-toggle {
-	color: #FFFFFF;
 	border:none;
+}
+
+.navbar-toggle .icon-bar {
+	border: #FFFFFF;
 }
