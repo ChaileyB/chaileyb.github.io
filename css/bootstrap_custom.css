@@ -1,0 +1,110 @@
+body {
+	padding-top: 50px;
+	background-color: #DCDCDC;
+	padding-bottom: 100px;
+}
+
+.navbar-default {
+	background-color: #ED1E79;
+	color: white;
+	border: none;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #97144E;
+}
+
+.navbar-default .navbar-nav,
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
+
+
+.jumbotron {
+	background-color: #FFFFFF;
+	color: #3097A4;
+}
+
+.navbar-inverse {
+	background-color: #ED1E79;
+	border: none;
+}
+
+.navbar-inverse p {
+	color:#FFFFFF;
+}
+
+.col-md-4 {
+	padding-bottom: 20px;
+}
+
+.thumbnail {
+	overflow: hidden;
+	background-color: transparent;
+	border: none;
+}
+
+p {
+	font-family: 'Muli', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.thumbnail img {
+	max-height: 150px;
+}
+
+.row {
+	padding-top: 25px;
+}
+
+.btn-default {
+	color: #FFFFFF;
+	background-color: #4691F0;
+	border: none;
+}
+
+.btn-default:hover {
+	color: #FFFFFF;
+	background-color: #97144E;
+	border: none;
+}
+
+.col-md-4 {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.navbar-text > a {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+a {
+	color: #ED1E79;
+	font-weight: bold;
+}
+
+a:hover {
+	color:#97144E;
+	text-decoration: none;
+}
+
+.container-fluid {
+	width:100%;
+}
