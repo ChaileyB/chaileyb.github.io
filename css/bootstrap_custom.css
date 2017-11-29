@@ -125,6 +125,6 @@ a:hover {
 
 .brand-image {
 	float: left;
-	height: 50px;
+	max-height: 50px;
 	padding: 15px 15px;
 }
