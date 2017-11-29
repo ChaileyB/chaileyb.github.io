@@ -12,6 +12,7 @@ body {
 
 .navbar-default .navbar-brand {
 	color: #FFFFFF;
+	padding: 0px;
 }
 
 .navbar-default .navbar-nav {
