@@ -124,7 +124,11 @@ a:hover {
 }
 
 .navbar-brand {
-	padding:15px 15px 15px 15px;
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .brand-image {
