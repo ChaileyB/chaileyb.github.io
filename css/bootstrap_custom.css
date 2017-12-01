@@ -35,8 +35,15 @@ body {
 
 
 .jumbotron {
-	background-color: #ED1E79;
-	color: #FFFFFF;
+	background-color: #DCDCDC;
+}
+
+.jumbotron > h1 {
+	color: #ED1E79;
+}
+
+.jumbotron > p {
+	color: #ED1E79;
 }
 
 .navbar-inverse {
