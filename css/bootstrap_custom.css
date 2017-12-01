@@ -40,14 +40,6 @@ body {
     border-radius: 5px;
 }
 
-.jumbotron > h1 {
-	color: #ED1E79 !important;
-}
-
-.jumbotron > p {
-	color: #ED1E79 !important;
-}
-
 .navbar-inverse {
 	background-color: #ED1E79;
 	border: none;
