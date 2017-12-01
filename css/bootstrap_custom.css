@@ -35,9 +35,8 @@ body {
 
 
 .jumbotron {
-	background-color: #DCDCDC !important;
-	border: 2px solid #ED1E79;
-    border-radius: 5px;
+	background-color: #DCDCDC;
+	border-bottom: 2px solid #ED1E79;
 }
 
 .navbar-inverse {
