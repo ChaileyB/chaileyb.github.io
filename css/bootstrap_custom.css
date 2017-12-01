@@ -36,6 +36,8 @@ body {
 
 .jumbotron {
 	background-color: #DCDCDC !important;
+	border: 2px solid #ED1E79;
+    border-radius: 5px;
 }
 
 .jumbotron > h1 {
