@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="msapplication-config" content="tiles.xml" />
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<title>charlie george | Creative and Digital Marketing agency in Cambridgeshire</title>
+		<title>charlie george | Creative and Digital Marketing agency</title>
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
 			<div class="jumbotron">
 				<h1 class="text-center">Welcome to charlie george</h1>
 				<p class="text-center">An innovative creative and digital marketing agency based in Cambridgeshire</p>
-				<h3 class="text-center">This website is a work in progress. Please feel free to contact me in the meantime if you have any questions.</h3>
+				<h3 class="text-center">This website is a work in progress. Please feel free to <a data-toggle="modal" href="#ContactModal">contact us</a> in the meantime if you have any questions.</h3>
 			</div>
 		</div>
 
@@ -78,17 +78,48 @@
 				<img class="column-image" src="images/Person_Circle.svg" height=180px/>
 				<h3 class="text-center">Putting your People First</h3>
 				<p>At charlie george, we understand that business at its core is about the ability to deal with people. As such, we will make every effort to accomodate our clients as individuals, whilst striving to help their organisation to the best of our ability.</p>
+				<button class="btn btn-default btn-column text-center" role="button" data-toggle="modal" data-target="#ContactModal">Find out more!</button>
 			</div>
 		<div class="col-sm-4">
 			<img class="column-image" src="images/Connection_Circle.svg" height=180px/>
 			<h3 class="text-center">Establishing your Online Presence</h3>
-			<p>In today's business world, it is vital for businesses to have a successful online presence. At charlie george, we are more than happy to help you achieve this through helping you create and optimise your website for search engines.</p>
+			<p>In today's business world, it is vital for businesses to have a successful online presence. At charlie george, we are more than happy to help you achieve this through helping you create and optimise your website for search engines, driving your business.</p>
+			<button class="btn btn-default btn-column text-center" role="button" data-toggle="modal" data-target="#ContactModal">Find out more!</button>
 		</div>
 		<div class="col-sm-4">
 			<img class="column-image" src="images/pricing_circle.svg" height=180px/>
 			<h3 class="text-center">Pricing Flexibly</h3>
 			<p>Every business has its own assortment and distribution of costs. We offer flexible pricing, in order to help businesses accomodate us within their budgeting. As such, we offer a variety of products to suit businesses with a wide range of budgets.</p>
+			<button class="btn btn-default btn-column text-center" type="button" role="button" data-toggle="modal" data-target="#ContactModal">Find out more!</button>
 		</div>
+		</div>
+		
+		<div id="ContactModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+					<h3>Contact charlie george</h3>
+					</div>
+					<div class="modal-body">
+					<form>
+						<div class="form-group">
+						<label for="email">Email address:</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						
+						<div class="form-group">
+						<label for="textarea">Message:</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+					<button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			
+			</div>
 		</div>
 
 		<div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
