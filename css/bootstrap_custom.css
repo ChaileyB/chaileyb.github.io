@@ -131,9 +131,9 @@ a:hover {
 	line-height: 20px;
 }
 
-.navbar-brand > img {
+.brand-image {
 	float: left;
 	height: 40px;
 	padding-right: 10px;
-	vertical-align: middle;
+	padding-top: -80px;
 }
