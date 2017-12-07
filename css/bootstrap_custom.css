@@ -124,7 +124,7 @@ a:hover {
 
 .brand-image {
 	float: left;
-	height: 40px;
+	height: 30px;
 	vertical-align: center;
 }
 
@@ -139,4 +139,21 @@ a:hover {
 .column-image {
 	margin: auto;
 	display: block;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.btn-column {
+	width=100%;
+	text-align:center;
 }
