@@ -1,7 +1,7 @@
 body {		
 	padding-top: 5%;
 	background-color: #DCDCDC;
-	padding-bottom: 100px;
+	padding-bottom: 10%;
 	padding-left:5%;
 	padding-right:5%;
 }
@@ -157,4 +157,6 @@ a:hover {
 	width=100%;
 	margin:auto;
 	display:block;
+	border-radius: 30px;
+	font-size: 14pt;
 }
